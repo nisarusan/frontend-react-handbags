@@ -1,11 +1,6 @@
 function ProductArticle(props) {
 
-    let bestSeller = '';
-    if (props.productBestSell === "seller") {
-        bestSeller = "Best Seller";
-    } else if (props.productBestSell === "new") {
-        bestSeller = 'New Collection';
-    }
+    let bestSeller = props.productBestSell === 'seller' ? 'Best Seller' : props.productBestSell === 'new' ? 'New Collection' : '';
     return (
         <>
             <main>

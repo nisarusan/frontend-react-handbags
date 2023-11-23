@@ -12,14 +12,13 @@ import FooterSection from "./assets/components/FooterSection.jsx";
 function App() {
     return (
         <>
-
         <h1>Handbags & Purses</h1>
         <nav>
             <ButtonNav onClick={() => {
                 console.log("to the collection")
             }} buttonTitle="to the collection"/>
             <ButtonNav buttonTitle="shop all bags"/>
-            <ButtonNav buttonTitle="pre-orders" disabled="true"/>
+            <ButtonNav buttonTitle="pre-orders" disabled />
         </nav>
         <main>
             <ProductArticle
