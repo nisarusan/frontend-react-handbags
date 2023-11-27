@@ -1,5 +1,4 @@
 function ProductArticle(props) {
-
     let bestSeller = props.productBestSell === 'seller' ? 'Best Seller' : props.productBestSell === 'new' ? 'New Collection' : '';
     return (
         <>
