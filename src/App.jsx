@@ -1,13 +1,13 @@
 import './App.css'
 import ButtonNav from "./assets/header/buttons/ButtonNav.jsx";
-import ProductArticle from "./assets/components/ProductArticle.jsx";
+import ProductArticle from "./components/ProductArticle.jsx";
 import bagImage_1 from "./assets/bag_1.png";
 import bagImage_2 from "./assets/bag_2.png";
 import bagImage_3 from "./assets/bag_3.png";
 import bagImage_4 from "./assets/bag_4.png";
 import ourStory from "./assets/our_story.png";
 import ourBrand from "./assets/brand.png";
-import FooterSection from "./assets/components/FooterSection.jsx";
+import FooterSection from "./components/FooterSection.jsx";
 
 function App() {
     return (
